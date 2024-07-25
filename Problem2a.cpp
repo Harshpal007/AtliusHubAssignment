@@ -19,7 +19,8 @@ class Node{
 }
 
 
-
+// Time Complexity O(N) as we are iterating through the list only once
+// Space Complexity O(1) as only constant amount of variables are used on every function call
 void reverseLinkedList(Node* head){
 
     //Copy of the head Node
